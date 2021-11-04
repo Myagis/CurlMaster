@@ -1,5 +1,7 @@
-<p>all-workouts works!</p>
-
-<div *ngFor="let workout of workouts">
-  <h1>{{ workout.name }}</h1>
-</div>
+<ag-grid-angular
+  style="width: 500px; height: 500px"
+  class="ag-theme-alpine"
+  [rowData]="rowData"
+  [columnDefs]="columnDefs"
+>
+</ag-grid-angular>
