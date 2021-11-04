@@ -1,4 +1,4 @@
-import { WORKOUT } from './workout';
+import { WORKOUT } from './interfaces/workout';
 
 export const WORKOUTS: WORKOUT[] = [
   { Exersice: 'Squat', BodyPart: 'Compound' },

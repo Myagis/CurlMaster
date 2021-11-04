@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { WORKOUT } from '../../shared/workout';
+import { WORKOUT } from '../../shared/interfaces/workout';
 import { WORKOUTS } from '../../shared/mock-workouts';
 import { ColDef } from 'ag-grid-community';
 
